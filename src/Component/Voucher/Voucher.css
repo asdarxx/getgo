@@ -1,0 +1,72 @@
+.v-container{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.v-card{
+    border:5px solid orange;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.v-left{
+    border-right: 3px dashed orange;
+    padding: 15px;
+    width: 30%;
+    color:darkgrey;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.v-right{
+    padding: 15px; 
+    width: 70%;
+}
+
+.v-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:orangered;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1cm;
+    font-style: italic;
+}
+
+.v-title span{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(146, 49, 13);
+    font-family: 'Fredoka One', cursive;
+    font-style: italic;
+}
+
+.v-amount{
+    font-size: 40px;
+    background-color: orangered;
+    font-weight: bold;
+    color: white;   
+    font-family: 'Fredoka One', cursive;
+    font-style: italic;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.v-desc{
+    font-style: italic;
+    color: darkgrey;
+    font-weight:bold;
+}
+.v-exp{
+    text-align: end;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.v-exp span{
+    font-size: 20px;
+    font-weight: bold;
+}
